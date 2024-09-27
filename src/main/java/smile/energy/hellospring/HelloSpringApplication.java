@@ -10,5 +10,7 @@ public class HelloSpringApplication {
 		SpringApplication.run(HelloSpringApplication.class, args);
 	}
 
+
+
 }
 //Сорри.. забыл вначале работы создать ветку..
