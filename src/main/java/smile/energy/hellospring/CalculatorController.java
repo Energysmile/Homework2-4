@@ -52,9 +52,7 @@ public class CalculatorController {
         if (num1 == null || num2 == null) {
             return "Нужно ввести оба значения";
         }
-        if (num2 == 0) {
-            return "На 0 делить нельзя";
-        }
+
             return calculatorService.calculatorDivide(num1, num2);
 
     }
